@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Devaranjani A</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f6ff;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header, footer {
+      background: #5e2a84;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      box-sizing: border-box;
+    }
+    h2 {
+      color: #5e2a84;
+      margin-bottom: 0.5rem;
+    }
+    .description {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      color: #444;
+    }
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 3rem;
+      justify-content: center;
+    }
+    .image-gallery img {
+      width: 250px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #0d0d0d;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .image-gallery img:hover {
+      transform: scale(1.1) translateY(-8px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+      border-color: #5e2a84;
+    }
+    a.back {
+      display: inline-block;
+      margin-top: 2rem;
+      text-decoration: none;
+      color: #5e2a84;
+      border: 2px solid #5e2a84;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+    }
+    a.back:hover {
+      background: #5e2a84;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Projects</h1>
+  </header>
+
+  <main>
+    <h2>Car Price Prediction Web App</h2>
+    <p class="description">
+      Built an interactive Streamlit web app to predict car prices using Linear Regression and Random Forest models.
+      Features include CSV upload, dynamic target selection, model training, error metric evaluation (MAE, MSE, RMSE),
+      and actual vs predicted price visualization.
+      <br><strong>Technologies used:</strong> Python, Streamlit, scikit-learn, pandas, matplotlib.
+    </p>
+    <div class="image-gallery">
+      <img src="car code1.png" alt="Car App 1">
+      <img src="car code2.png" alt="Car App 2">
+      <img src="car op1.png" alt="Car App 3">
+      <img src="car op2.png" alt="Car App 4">
+      <img src="car op3.png" alt="Car App 5">
+    </div>
+
+    <h2>AI Resume Screener using Gradio and Python</h2>
+    <p class="description">
+      Developed an AI-powered resume screening tool that analyzes candidate resumes against job descriptions to calculate a match score,
+      detect available and missing skills, and visualize skill coverage using pie charts.
+      <br><strong>Technologies used:</strong> Python, Gradio, Regex, Matplotlib, NumPy.
+    </p>
+    <div class="image-gallery">
+      <img src="resume screener code1.png" alt="Resume 1">
+      <img src="resume screener code2.png" alt="Resume 2">
+      <img src="resume screener code3.png" alt="Resume 3">
+      <img src="resume screener op1.png" alt="Resume 4">
+      <img src="resume screener op2.png" alt="Resume 5">
+    </div>
+
+    <a href="index.html" class="back">⬅ Back to Home</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Devaranjani A
+  </footer>
+
+</body>
+</html>

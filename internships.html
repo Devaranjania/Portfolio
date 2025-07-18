@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Internships | Devaranjani A</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f6ff;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header, footer {
+      background: #5e2a84;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .internship {
+      margin-bottom: 2rem;
+    }
+
+    .internship-title {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #5e2a84;
+    }
+
+    .internship-desc {
+      margin-left: 1rem;
+    }
+
+    .certificate {
+      margin-top: 0.5rem;
+      margin-left: 1rem;
+    }
+
+    .screenshots {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .screenshots img {
+      width: 250px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #ccc;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+
+    .screenshots img:hover {
+      transform: scale(1.1) translateY(-8px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+      border-color: #5e2a84;
+    }
+
+    a.back {
+      display: inline-block;
+      margin-top: 2rem;
+      text-decoration: none;
+      color: #5e2a84;
+      border: 2px solid #5e2a84;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+    }
+
+    a.back:hover {
+      background: #5e2a84;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Internships</h1>
+  </header>
+
+  <main>
+    <div class="internship">
+      <div class="internship-title">Web Developer – Nilatech Robotics and Automation (Jul 2024 – Aug 2024)</div>
+      <div class="internship-desc">
+        <ul>
+          <li>Built a Flask-based employee management system with dynamic page rendering.</li>
+          <li>Implemented an LED switch control interface using HTML and Arduino for real-time hardware control.</li>
+        </ul>
+      </div>
+      <div class="certificate">
+        <strong>Certificate:</strong>
+        <a href="internship certificate.png" target="_blank">[View Completion Certificate]</a><br>
+        <strong>Offer Letter:</strong>
+        <a href="intern offer letter.jpg" target="_blank">[View Offer Letter]</a>
+      </div>
+    </div>
+
+    <div class="screenshots">
+      <img src="intern project.jpg" alt="Internship Screenshot 1">
+      <img src="intern project1.png" alt="Internship Screenshot 2">
+      <img src="intern project2.png" alt="Internship Screenshot 3">
+    </div>
+
+    <a href="index.html" class="back">⬅ Back to Home</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Devaranjani A
+  </footer>
+</body>
+</html>
